@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "mod.linguardium.geckolibcompat.mixins",
+  "plugin": "mod.linguardium.geckolibcompat.mixins.MixinConfigPlugin",
+  "priority": -2,
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ArmorFeatureRendererMixinLoader"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
